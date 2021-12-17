@@ -63,8 +63,6 @@ PKGS=(
 'xorg-xinit'
 'xterm'
 'plasma-desktop' # KDE Load second
-'alsa-plugins' # audio plugins
-'alsa-utils' # audio utils
 'ark' # compression
 'audiocd-kio' 
 'autoconf' # build
@@ -155,14 +153,15 @@ PKGS=(
 'pacman-contrib'
 'patch'
 'picom'
+'pipewire'
+'pipewire-alsa'
+'pipewire-pulse'
 'pkgconf'
 'plasma-meta'
 'plasma-nm'
 'powerdevil'
 'powerline-fonts'
 'print-manager'
-'pulseaudio'
-'pulseaudio-alsa'
 'pulseaudio-bluetooth'
 'python-notify2'
 'python-psutil'
